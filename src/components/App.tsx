@@ -63,3 +63,5 @@ const mapStateToProps = ({ todos }: StoreState): { todos: Todo[] } => {
 }
 
 export const App = connect(mapStateToProps, { fetchTodos, deleteTodo })(_App)
+
+// ading anything to not repeatedly enter github credentials
